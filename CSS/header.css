@@ -19,6 +19,16 @@ header img {
     font-weight: 500;
 }
 
+.category p:hover {
+   color: #2b4eff;
+   
+}
+
+.category i:hover {
+    color: #2b4eff;
+    
+ }
+
 .left {
     display: flex;
     gap: 16px;
@@ -81,15 +91,15 @@ nav ul li ul li {
 
 nav ul li ul li:hover {
     color: white;
-  
-    
+
+
 }
 
 nav ul li ul li:hover::before {
-  left: 0;
-  right: auto;
-  transition: all 0.3s;
-  width: 100%;
+    left: 0;
+    right: auto;
+    transition: all 0.3s;
+    width: 100%;
 }
 
 nav ul li ul li::before {
