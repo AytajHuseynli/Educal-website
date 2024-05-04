@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e1133;
+    background-color: #edeef3;
+
+}
+
+body ul li {
+    list-style: none; 
+}
+
+body a {
+    text-decoration: none;
+}
+
+body ul {
+    display: flex;
+    gap: 24px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ body button {
+    background-color: #2b4eff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+}
